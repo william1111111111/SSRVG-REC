@@ -1,9 +1,9 @@
 # SSRVG-REC
 This project extends the SSRVG model by introducing a segmentation decoder on top of its original grounding capability, enabling the model to simultaneously perform REG and RES.
 
-# RefCOCO  RefCOCO+ RefCOCOg
+# RefCOCO  RefCOCO+
 
-| 模型         | 发表刊会     | 骨干    | RefCOCO-val | RefCOCO-testA | RefCOCO-testB | RefCOCO+-val | RefCOCO+-testA | RefCOCO+-testB |
+| Model         | Venue     | backbone    | RefCOCO-val | RefCOCO-testA | RefCOCO-testB | RefCOCO+-val | RefCOCO+-testA | RefCOCO+-testB |
 |--------------|--------------|---------|-------------|---------------|---------------|--------------|----------------|----------------|
 | **fine-tune only** |              |         |             |               |               |              |                |                |
 | Word2Pix     | TNNLS’22     | ResNet-101 | 81.20 | 84.39 | 78.12 | 69.74 | 76.11 | 61.24 |
